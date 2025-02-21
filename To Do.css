@@ -1,0 +1,104 @@
+body{
+    background-color: #828A95;
+}
+
+h2{
+    text-align: center;
+}
+
+li{
+    margin: 5px 0px;
+    list-style: none;
+}
+
+
+#clearComp{
+    margin-left: auto;
+    margin-right: 7vmin;
+
+}
+
+
+#main{
+    height: 1.3rem;
+}
+
+#newCatGen{
+    margin-left: 25px;
+    display: flex;
+}
+
+.newBtn{
+    background-color: #828A95;
+    height: 22.4px;
+    color: black;
+    border: none;
+}
+/* 
+#catBox{
+    display: inline;
+} */
+
+.promt{
+    background-color: #CCD7E4;
+    height: 1.4rem;
+    width: 225px;
+    border: none;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.promt input, .promt button{
+    background-color: #CCD7E4;
+    border: none;
+}
+
+.promt input{
+    margin-left: 2px;
+}
+
+.promt input:focus{
+    outline-width: 0;
+}
+
+
+.hide{
+    display: none;
+}
+
+/* catogory design */
+
+#catContainer{
+    /* width: 98vw; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.category{
+    width: 40vmax;
+    max-width: 450px;
+    margin: 25px;
+}
+
+.heading{
+    font-size: 20px;
+    padding: 0.1rem 0px;
+    padding-left: 10px;
+    background-color: #D5C9DF;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.newTaskGen, .listOfTasks{
+    margin-left:  10px;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
